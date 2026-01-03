@@ -12,7 +12,7 @@ Instead of memorizing dozens of flags for `zsteg`, `binwalk`, or `steghide`, thi
 ---
 
 ## 🤖 About "Vibe Coding"
-This project was **"Vibe Coded"** with the assistance of AI (Gemini). The goal was to take powerful but fragmented CLI tools and wrap them in a simplified, modern interface without over-engineering the solution. It focuses on flow, speed, and utility.
+This project was **"Vibe Coded"** with the assistance of AI (Gemini). The goal was to take powerful but fragmented CLI tools and wrap them in a simplified, modern interface without over-engineering the solution. It focuses on flow, speed, and utility. Just want to help anyone if i can
 
 ---
 
