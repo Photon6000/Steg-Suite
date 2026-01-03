@@ -1,7 +1,5 @@
 # Steg-Suite Console 🕵️‍♂️🔓
 
-> **Vibe Coded to Simplify the Tools**
-
 **Steg-Suite Console** is a unified, cross-platform GUI designed to make complex command-line steganography tools accessible and easy to chain together.
 
 Instead of memorizing dozens of flags for `zsteg`, `binwalk`, or `steghide`, this tool lets you simply speedrun through your CTF challenges (stego). Drag, drop, check the boxes, and let the suite handle the syntax.
