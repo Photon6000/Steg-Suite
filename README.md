@@ -79,3 +79,5 @@ cd Steg-Suite-Console
 # Install Python GUI libraries
 pip install customtkinter tkinterdnd2
 ```
+or just 
+``` install the .deb for debian and ubuntu users```
