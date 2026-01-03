@@ -9,7 +9,6 @@ import threading
 import platform
 import mimetypes
 
-# Try to import Drag and Drop library, fallback gracefully if missing
 try:
     from tkinterdnd2 import DND_FILES, TkinterDnD
     HAS_DND = True
