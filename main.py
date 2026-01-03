@@ -743,3 +743,4 @@ class StegoApp(BaseClass):
 if __name__ == "__main__":
     app = StegoApp()
     app.mainloop()
+
