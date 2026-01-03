@@ -7,7 +7,6 @@
 Instead of memorizing dozens of flags for `zsteg`, `binwalk`, or `steghide`, this tool lets you simply speedrun through your CTF challenges (stego). Drag, drop, check the boxes, and let the suite handle the syntax.
 
 ![Steg-Suite Screenshot](assets/ScreenShot.png)
-*(Note: Please add a screenshot of the app to an `assets` folder)*
 
 ---
 
