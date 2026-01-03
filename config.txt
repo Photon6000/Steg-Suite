@@ -1,0 +1,4 @@
+theme=dark
+color_theme=blue
+font_size=14
+default_dir=/home

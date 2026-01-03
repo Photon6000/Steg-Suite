@@ -1,0 +1,9 @@
+binwalk=Analyzes binary files for embedded files and code.
+zsteg=Detects hidden data in PNG/BMP files using LSB techniques.
+pngcheck=Verifies PNG integrity and visualizes file structure.
+steghide=Classic tool for hiding data in JPEG and BMP.
+stegseek=Brute-forces Steghide passwords using a wordlist.
+jsteg=Hides/Reveals data in JPEG files.
+stegsnow=Hides messages in text files by appending whitespace.
+hexdump=Displays file content in hexadecimal format.
+hashcat=Advanced password recovery and hash cracking.

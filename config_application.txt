@@ -1,0 +1,2 @@
+binwalk=/usr/local/bin/binwalk
+# You can leave others empty to use system default
