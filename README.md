@@ -1,15 +1,28 @@
 # Steg-Suite Console 🕵️‍♂️🔓
 
+> **Vibe Coded to Simplify the Tools**
+
 **Steg-Suite Console** is a unified, cross-platform GUI designed to make complex command-line steganography tools accessible and easy to chain together.
 
-Instead of memorizing dozens of flags for `zsteg`, `binwalk`, or `steghide`, this tool lets you fast through your CTF challenges. Drag, drop, check the boxes, and let the suite handle the syntax.
+Instead of memorizing dozens of flags for `zsteg`, `binwalk`, or `steghide`, this tool lets you "vibe" through your CTF challenges or forensic analysis. Drag, drop, check the boxes, and let the suite handle the syntax.
 
-![Steg-Suite Screenshot](assets/screenshot.png)
+![Steg-Suite Screenshot](assets/ScreenShot.png)
+*(Note: Please add a screenshot of the app to an `assets` folder)*
 
 ---
 
 ## 🤖 About "Vibe Coding"
 This project was **"Vibe Coded"** with the assistance of AI (Gemini). The goal was to take powerful but fragmented CLI tools and wrap them in a simplified, modern interface without over-engineering the solution. It focuses on flow, speed, and utility.
+
+---
+
+---
+
+# ❤️ Acknowledgments & Credits
+
+**Steg-Suite Console** is a wrapper built on the shoulders of giants. This project would not exist without the incredible work of the security researchers and developers who created these core tools and open-sourced them for the world to use.
+
+A massive **THANK YOU** to these creators for their dedication to the open-source community.
 
 ---
 
@@ -19,8 +32,8 @@ This project was **"Vibe Coded"** with the assistance of AI (Gemini). The goal w
 * **⛓️ Chain Attacks:** Select multiple tools and run them sequentially.
 * **🖱️ Drag & Drop:** Load files instantly without typing paths.
 * **🖥️ Cross-Platform:**
-    * **Linux:** Full support.
-    * **Windows:** (Experimental) Includes path configuration for `.exe` tools and a pure-Python fallback for `hexdump`.
+    * **Linux:** Full support.
+    * **Windows:** (Experimental) Includes path configuration for `.exe` tools and a pure-Python fallback for `hexdump`.
 * **⚙️ Smart Configuration:** Define custom paths for your tools via `config_application.txt`.
 * **🧠 Intelligent Output:** Filters noise (like empty Zsteg lines) so you only see the flag/data.
 * **🛑 Control:** Stop hanging processes instantly and save your logs.
@@ -32,24 +45,39 @@ Support for **Windows is currently experimental**. While the code handles `.exe`
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Core Tools & Installation
 
-### 1. Prerequisites
-You need **Python 3.8+**.
-Crucially, this app is a **GUI Wrapper**—it runs tools already installed on your system. You must install the underlying tools:
+We rely on these incredible open-source tools. Please support the original creators!
 
-* **Linux (Kali/Debian):**
-    ```bash
-    sudo apt install binwalk zsteg steghide stegseek exiftool pngcheck jsteg stegsnow hashcat
-    ```
-* **Windows:**
-    Download the executables for the tools you need (e.g., ExifTool, Steghide) and note their install paths.
+| Tool | Description | Download / Source Link |
+| :--- | :--- | :--- |
+| **Binwalk** | Firmware analysis and extraction tool. | [**GitHub Repository**](https://github.com/ReFirmLabs/binwalk) |
+| **Steghide** | Hides data in various audio and image files. | [**SourceForge Page**](http://steghide.sourceforge.net/) |
+| **Stegseek** | The world's fastest Steghide cracker. | [**View Release v0.6**](https://github.com/RickdeJager/stegseek/releases/tag/v0.6) |
+| **ExifTool** | Reading, writing and manipulating image metadata. | [**Official Website**](https://exiftool.org/) |
+| **Pngcheck** | Verifies the integrity of PNG files. | [**Official Website**](http://www.libpng.org/pub/png/apps/pngcheck.html) |
+| **Jsteg** | JPEG steganography tool. | [**View Releases**](https://github.com/lukechampine/jsteg/releases) |
+| **Stegsnow** | Hides messages in text files by appending whitespace. | [**Darkside Website**](http://www.darkside.com.au/snow/) |
+| **Hashcat** | The world's fastest password cracker. | [**View Release v7.1.2**](https://github.com/hashcat/hashcat/releases/tag/v7.1.2) |
+| **Zsteg** | Essential PNG/BMP analysis tool. | *See installation commands below* |
 
-### 2. Installation
+### 💎 Zsteg Setup
+Since **Zsteg** is a Ruby gem, it requires a manual installation step:
+
+```bash
+# Install Ruby Dependencies
+sudo apt install ruby ruby-dev -y
+
+# Install Zsteg
+sudo gem install zsteg
+```
+
+### 1. Installation
 ```bash
 # Clone the repo
-git clone [https://github.com/YOUR_USERNAME/Steg-Suite-Console.git](https://github.com/Photon6000/Steg-Suite-Console.git)
+git clone https://github.com/Photon6000/Steg-Suite.git
 cd Steg-Suite-Console
 
 # Install Python GUI libraries
 pip install customtkinter tkinterdnd2
+```
