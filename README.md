@@ -8,6 +8,7 @@ Instead of memorizing dozens of flags for `zsteg`, `binwalk`, or `steghide`, thi
 
 ![Steg-Suite Screenshot](assets/ScreenShot.png)
 
+
 ---
 
 ## 🤖 About "Vibe Coding"
