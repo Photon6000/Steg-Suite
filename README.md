@@ -76,7 +76,7 @@ sudo gem install zsteg
 ```bash
 # Clone the repo
 git clone https://github.com/Photon6000/Steg-Suite.git
-cd Steg-Suite-Console
+cd Steg-Suite
 
 # Install Python GUI libraries
 pip install customtkinter tkinterdnd2
