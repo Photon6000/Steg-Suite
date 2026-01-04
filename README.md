@@ -59,6 +59,8 @@ We rely on these incredible open-source tools. Please support the original creat
 | **Hashcat** | The world's fastest password cracker. | [**View Release v7.1.2**](https://github.com/hashcat/hashcat/releases/tag/v7.1.2) |
 | **Zsteg** | Essential PNG/BMP analysis tool. | *See installation commands below* |
 
+Note: Steg-Suite is not a standalone tool it needs these to work
+
 ### 💎 Zsteg Setup
 Since **Zsteg** is a Ruby gem, it requires a manual installation step:
 
